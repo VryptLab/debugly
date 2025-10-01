@@ -1,0 +1,33 @@
+{
+  "name": "debugly",
+  "packageManager": "yarn@4.10.3",
+  "version": "1.0.0",
+  "description": "Customizable logger for Node.js with support for multiple transports, colorized output, and structured logs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VryptLab/debugly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VryptLab/debugly/issues"
+  },
+  "homepage": "https://github.com/VryptLab/debugly#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.6.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
